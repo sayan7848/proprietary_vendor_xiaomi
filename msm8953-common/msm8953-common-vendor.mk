@@ -54,7 +54,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8953-common/proprietary/lib/libmmrtpencoder.so:system/lib/libmmrtpencoder.so \
     vendor/xiaomi/msm8953-common/proprietary/lib/libqmi_cci_system.so:system/lib/libqmi_cci_system.so \
     vendor/xiaomi/msm8953-common/proprietary/lib/librcc.so:system/lib/librcc.so \
-    vendor/xiaomi/msm8953-common/proprietary/vendor/lib/libsdm-disp-apis.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsdm-disp-apis.so \
     vendor/xiaomi/msm8953-common/proprietary/lib/libwfdavenhancements.so:system/lib/libwfdavenhancements.so \
     vendor/xiaomi/msm8953-common/proprietary/lib/libwfdcodecv4l2.so:system/lib/libwfdcodecv4l2.so \
     vendor/xiaomi/msm8953-common/proprietary/lib/libwfdcommonutils.so:system/lib/libwfdcommonutils.so \
@@ -95,7 +94,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8953-common/proprietary/lib64/libmmparser_lite.so:system/lib64/libmmparser_lite.so \
     vendor/xiaomi/msm8953-common/proprietary/lib64/libqmi_cci_system.so:system/lib64/libqmi_cci_system.so \
     vendor/xiaomi/msm8953-common/proprietary/lib64/librcc.so:system/lib64/librcc.so \
-    vendor/xiaomi/msm8953-common/proprietary/vendor/lib64/libsdm-disp-apis.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsdm-disp-apis.so \
     vendor/xiaomi/msm8953-common/proprietary/lib64/libwfdclient.so:system/lib64/libwfdclient.so \
     vendor/xiaomi/msm8953-common/proprietary/lib64/libwfdnative.so:system/lib64/libwfdnative.so \
     vendor/xiaomi/msm8953-common/proprietary/lib64/vendor.display.postproc@1.0.so:system/lib64/vendor.display.postproc@1.0.so \
@@ -320,6 +318,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8953-common/proprietary/vendor/lib/libscalar.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscalar.so \
     vendor/xiaomi/msm8953-common/proprietary/vendor/lib/libsdm-color.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsdm-color.so \
     vendor/xiaomi/msm8953-common/proprietary/vendor/lib/libsdm-diag.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsdm-diag.so \
+    vendor/xiaomi/msm8953-common/proprietary/vendor/lib/libsdm-disp-apis.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsdm-disp-apis.so \
     vendor/xiaomi/msm8953-common/proprietary/vendor/lib/libsdmextension.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsdmextension.so \
     vendor/xiaomi/msm8953-common/proprietary/vendor/lib/libsensor1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsensor1.so \
     vendor/xiaomi/msm8953-common/proprietary/vendor/lib/libsensor_reg.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsensor_reg.so \
@@ -535,6 +534,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8953-common/proprietary/vendor/lib64/libscalar.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libscalar.so \
     vendor/xiaomi/msm8953-common/proprietary/vendor/lib64/libsdm-color.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsdm-color.so \
     vendor/xiaomi/msm8953-common/proprietary/vendor/lib64/libsdm-diag.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsdm-diag.so \
+    vendor/xiaomi/msm8953-common/proprietary/vendor/lib64/libsdm-disp-apis.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsdm-disp-apis.so \
     vendor/xiaomi/msm8953-common/proprietary/vendor/lib64/libsdmextension.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsdmextension.so \
     vendor/xiaomi/msm8953-common/proprietary/vendor/lib64/libsecureui.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsecureui.so \
     vendor/xiaomi/msm8953-common/proprietary/vendor/lib64/libsecureui_svcsock.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsecureui_svcsock.so \
